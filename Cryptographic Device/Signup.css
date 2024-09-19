@@ -1,0 +1,75 @@
+form{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+
+.nav{
+    gap: 6rem;
+    display: flex;
+    justify-content: left;
+    text-decoration: underline;
+    padding: 2em;
+    
+    
+}
+
+.button{
+    background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.Signup{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.25em 0.25rem;
+    padding: 0.5em;
+    height: 200px;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    height: 300px;
+}
+
+header{
+    background-color: white;
+}
+
+.Login{
+    display: grid;
+
+}
+
+body{
+    background-image: url(Background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: none;
+}
+
+.footer{
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    padding: 1em;
+    height: 100px;
+    color: white;
+
+
+}
+
+.Icon{
+    width:40px;
+}

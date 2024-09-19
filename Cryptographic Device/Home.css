@@ -1,0 +1,139 @@
+body {
+    margin: none;
+    display: grid;
+    place-content: center;
+    
+}
+
+header {
+    height: 100px;
+    background: rgb(215, 213, 213);
+    font-size: 20px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: Sarpanch;
+}
+
+main {
+    
+    display: grid;
+    place-items: center;
+    background: url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    margin: none;
+    width: 100%;
+    
+}
+
+.main-content {
+color: rgb(54, 143, 81);
+text-align: center;
+margin:5px;
+}
+
+
+.nav{
+  gap: 6rem;
+  display: flex;
+  justify-content: left;
+  padding: 2em;
+  background-color: white;
+  
+  
+}
+
+
+.colomn {
+    gap: 6rem;
+    display: flex;
+    justify-content: left;
+    padding: 2em;
+    background-color: white;
+    
+    
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+    gap: 0.5em;
+    border-radius: 100px;
+}
+
+
+
+.footer {
+  bottom: 0;
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  height: 100px;
+  color: white;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    color: rgb(10, 9, 9);
+    background: none;
+    transition: all .3s ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:none;
+}
+
+.carouselview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  transition: all 0.25s ease-in;
+  
+}
+
+.carouselview .eventlist {
+  max-width: 500px;
+  width: 80vw;
+  padding: 30px 7px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+.prev-btn {
+  background: none;
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+}
+
+.event {
+  scroll-snap-align: center;
+  min-width: 520px;
+  height: 320px;
+  background-color: deeppink;
+  border-radius:3px;
+}
+

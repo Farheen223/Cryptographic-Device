@@ -1,0 +1,83 @@
+/**
+ * CSS FOR THE JAVASCRIPT ON ALL OF THE PAGES
+ */
+
+ /* CSS FOR NAVIGATION JAVASCRIPT FUNCTIONS*/
+.nav-link {
+    color: green; /* colour before hover */
+    text-decoration: underline;
+    font-size: 1.5 rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .nav-link:hover {
+    color: red; /* Changes colour on hover */
+    text-decoration: underline;
+    font: size 1.5 rem; 
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+ /* CSS FOR ALL BUTTON JAVASCRIPT FUNCTIONS */
+  .button{
+    background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+    background-color: lightgreen;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* CSS FOR FORGOT PASSWORD POP UP JAVASCRIPT FUNCTION */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: darkolivegreen;
+  
+}
+
+
+.modal-content {
+  background-color: lightslategray;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid white;
+  width: 80%;
+  color: black;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
